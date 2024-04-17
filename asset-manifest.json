@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shubhi-srivastava-portfolio/static/css/main.e7ecf093.css",
-    "main.js": "/shubhi-srivastava-portfolio/static/js/main.130a56e4.js",
+    "main.js": "/shubhi-srivastava-portfolio/static/js/main.9994ef12.js",
     "static/js/787.55fc9a83.chunk.js": "/shubhi-srivastava-portfolio/static/js/787.55fc9a83.chunk.js",
     "static/media/dev.png": "/shubhi-srivastava-portfolio/static/media/dev.464902ffef3cba5a6c1a.png",
     "static/media/cloudBg.png": "/shubhi-srivastava-portfolio/static/media/cloudBg.f0ed6bd751cd1b06ebe5.png",
@@ -16,11 +16,11 @@
     "static/media/document.png": "/shubhi-srivastava-portfolio/static/media/document.ae38c085abc77af787f9.png",
     "index.html": "/shubhi-srivastava-portfolio/index.html",
     "main.e7ecf093.css.map": "/shubhi-srivastava-portfolio/static/css/main.e7ecf093.css.map",
-    "main.130a56e4.js.map": "/shubhi-srivastava-portfolio/static/js/main.130a56e4.js.map",
+    "main.9994ef12.js.map": "/shubhi-srivastava-portfolio/static/js/main.9994ef12.js.map",
     "787.55fc9a83.chunk.js.map": "/shubhi-srivastava-portfolio/static/js/787.55fc9a83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ecf093.css",
-    "static/js/main.130a56e4.js"
+    "static/js/main.9994ef12.js"
   ]
 }

@@ -39,10 +39,7 @@ const Contact = () => {
                 shubhi2818@gmail.com
               </a>
             </li>
-            <li className="flex items-center">
-              <PhoneOutlined className="mr-4 text-xl" />
-              +1 206-601-6528
-            </li>
+           
           </ul>
           <div className="flex items-center mt-8">
             {contactLinks.map((el, index) => (

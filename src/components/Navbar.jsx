@@ -33,15 +33,11 @@ const Navbar = () => {
       name: "Projects",
       route: "projects",
     },
-
     {
       name: "Contact",
       route: "contact",
     },
-    
   ];
-
-  
 
   return (
     <>
@@ -52,14 +48,10 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
-            <a
-              href="/"
-              className=
-                 "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
-              
-            >
-             <img src = {name} alt = "name-logo" width="200" height="150"/>
-            </a>
+            {/* Wrap the image with Link component */}
+            <Link to="about" smooth={true} duration={500}>
+              <img src={name} alt="name-logo" width="200" height="150" />
+            </Link>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
             <ul
@@ -74,21 +66,16 @@ const Navbar = () => {
                     activeClass={"text-white bg-blue-800"}
                     spy={true}
                     smooth={true}
-                    className=
-                     "block py-2 px-3 text-white hover:bg-blue-800 hover:text-black rounded-md"
-                    
+                    className="block py-2 px-3 text-white hover:bg-blue-800 hover:text-black rounded-md"
                   >
                     {el.name}
                   </Link>
                 </li>
               ))}
             </ul>
-           
           </div>
 
           <div className="flex md:hidden items-center">
-          
-
             <Hamburger
               toggled={toggle}
               size={22}
@@ -99,7 +86,6 @@ const Navbar = () => {
             />
           </div>
         </div>
-        {/* Mobile view nav bar */}
       </nav>
       <AnimatePresence>
         {toggle && (
@@ -107,18 +93,14 @@ const Navbar = () => {
             initial={{ x: 100 }}
             animate={{ x: 0, transition: { type: "spring" } }}
             exit={{ x: 200, transition: { type: "spring" } }}
-            className=
-               "bg-black py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
-            
+            className="bg-black py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
           >
             <ul class="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
               {links.map((el) => (
                 <Link
                   to={el.route}
                   activeClass={"text-white bg-blue-500"}
-                  className=
-                   "hover:bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
-                  
+                  className="hover:bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
                   spy={true}
                   smooth={true}
                   onClick={() => setToggle(false)}

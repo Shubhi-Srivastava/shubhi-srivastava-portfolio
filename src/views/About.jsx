@@ -12,7 +12,7 @@ const About = () => {
         <br></br>
         <div className="flex justify-between bg-gray-300">
           <Card style={{ width: 1400 }} >
-            <h4 className="mt-12 text-3xl font-semibold text-black">Who Am I</h4>
+           
             <p className="mt-4 text-xl text-justify text-black italic font-bold">
             I'm a recent Computer Science graduate from the State University of New York at Buffalo, With over two years of hands-on experience, I specialize in full-stack development, object-oriented programming, design patterns, and distributed systems. 
 I'm passionate about leveraging technology to address real-world challenges and foster positive change in society.

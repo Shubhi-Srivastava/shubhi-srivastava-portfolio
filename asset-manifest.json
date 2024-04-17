@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shubhi-srivastava-portfolio/static/css/main.e7ecf093.css",
+    "main.js": "/shubhi-srivastava-portfolio/static/js/main.130a56e4.js",
+    "static/js/787.55fc9a83.chunk.js": "/shubhi-srivastava-portfolio/static/js/787.55fc9a83.chunk.js",
+    "static/media/dev.png": "/shubhi-srivastava-portfolio/static/media/dev.464902ffef3cba5a6c1a.png",
+    "static/media/cloudBg.png": "/shubhi-srivastava-portfolio/static/media/cloudBg.f0ed6bd751cd1b06ebe5.png",
+    "static/media/grad.png": "/shubhi-srivastava-portfolio/static/media/grad.4175df7874ba4a7777ba.png",
+    "static/media/resume.pdf": "/shubhi-srivastava-portfolio/static/media/resume.5443ccef84655337e1a0.pdf",
+    "static/media/aboutme.png": "/shubhi-srivastava-portfolio/static/media/aboutme.f9c65a43644a905df3d8.png",
+    "static/media/Name.png": "/shubhi-srivastava-portfolio/static/media/Name.3c70e7bdbd9312088803.png",
+    "static/media/event.png": "/shubhi-srivastava-portfolio/static/media/event.9548e403ba2c3c2c649e.png",
+    "static/media/raft.png": "/shubhi-srivastava-portfolio/static/media/raft.b81d00d8ba623e82a46e.png",
+    "static/media/restaurant.png": "/shubhi-srivastava-portfolio/static/media/restaurant.328fa7dcca632907ba60.png",
+    "static/media/languages.png": "/shubhi-srivastava-portfolio/static/media/languages.d61ee3ec563eab4347ac.png",
+    "static/media/document.png": "/shubhi-srivastava-portfolio/static/media/document.ae38c085abc77af787f9.png",
+    "index.html": "/shubhi-srivastava-portfolio/index.html",
+    "main.e7ecf093.css.map": "/shubhi-srivastava-portfolio/static/css/main.e7ecf093.css.map",
+    "main.130a56e4.js.map": "/shubhi-srivastava-portfolio/static/js/main.130a56e4.js.map",
+    "787.55fc9a83.chunk.js.map": "/shubhi-srivastava-portfolio/static/js/787.55fc9a83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7ecf093.css",
+    "static/js/main.130a56e4.js"
+  ]
+}

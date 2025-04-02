@@ -1,0 +1,6 @@
+
+node_modules/
+build/
+.DS_Storegit rm --cached -rf node_modules/
+npm-debug.log
+.cache/

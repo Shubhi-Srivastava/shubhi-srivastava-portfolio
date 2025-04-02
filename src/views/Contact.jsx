@@ -28,7 +28,7 @@ const Contact = () => {
           <ul className="text-lg text-gray-700 mb-4">
             <li className="flex items-center mb-4">
               <EnvironmentOutlined className="mr-4 text-xl" />
-              Seattle, USA
+              San Jose, California
             </li>
             <li className="flex items-center mb-4">
               <MailOutlined className="mr-4 text-xl" />

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import dev from "../assets/dev.png";
-import resumePDF from "../assets/resume.pdf";
+import resumePDF from "../assets/Shubhi_Srivastava_Resume.pdf";
 
 const Home = () => {
   const handleDownloadResume = () => {
